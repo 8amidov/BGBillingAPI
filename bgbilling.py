@@ -78,8 +78,8 @@ class BgBillingApi:
 
     def get_contract(self):
         """
-        {'id': 20566, 'title': '0002413', 'groups': 9, 'password': '5045455', 'dateFrom': '2017-03-23', 'dateTo': None,
-        'balanceMode': 1, 'paramGroupId': 1, 'personType': 0, 'comment': 'Октябрьская дом 52 кв 5 Будунова Асият ',
+        {'id': 20566, 'title': '0002413', 'groups': 9, 'password': '', 'dateFrom': '2017-03-23', 'dateTo': None,
+        'balanceMode': 1, 'paramGroupId': 1, 'personType': 0, 'comment': '',
         'hidden': False, 'superCid': 0, 'dependSubList': '', 'status': 0, 'statusTimeChange': '2022-11-04',
         'titlePatternId': 1, 'balanceSubMode': 0, 'domainId': 0, 'dependSub': False, 'balanceLimit': 0.0,
         'sub': False, 'super': False, 'independSub': False}
@@ -150,7 +150,7 @@ class BgBillingApi:
 
     def get_tariff(self):
         """
-        {'id': 20566, 'contractId': 20584, 'tariffPlanId': 14, 'dateFrom': '2017-03-01T00:00:00+03:00',
+        {'id': 20566, 'contractId': , 'tariffPlanId': 14, 'dateFrom': '2017-03-01T00:00:00+03:00',
         'dateTo': '2017-11-30T00:00:00+03:00', 'comment': '', 'position': 0, 'entityMid': 0, 'entityId': 0, 'replacedFromContractTariffId': 0
         """
         params = {'method': 'contractTariffGet',
@@ -207,7 +207,7 @@ class BgBillingApi:
         {'id': 230, 'title': 'ELTEX_MES1124MB: [172.31.7.142]', 'entitySpecId': 1, 'entityAttributes': {},
         'entityId': 249, 'entityTitle': 'ELTEX_MES1124MB: [172.31.7.142] ()', 'deviceTypeId': 16,
         'host': '172.31.7.142', 'deviceGroupIds': [], 'username': '', 'password': '',
-        'secret': '', 'config': '', 'comment': 'Ирчи Казака - Октябрьская (ГОРОТДЕЛ)', 'parentId': 124,
+        'secret': '', 'config': '', 'comment': '', 'parentId': 124,
         'children': None, 'uptime': '', 'uptimeTime': None, 'dateFrom': None, 'dateTo': None,
         'orderManagerDisabled': False, 'invDeviceId': 249, 'invDeviceTypeId': 16,
         'invTitle': 'ELTEX_MES1124MB: [172.31.7.142]', 'invIdentifier': '', 'invHost': '172.31.7.142',
